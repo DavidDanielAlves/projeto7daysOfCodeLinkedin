@@ -1,0 +1,29 @@
+.formacao {
+    margin-bottom: 8px;
+}
+
+.container-formacao {
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.titulo-formacao {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+.container-descricao-formacao {
+    display: flex;
+    gap: 8px;
+    line-height: 20px;
+}
+
+.descricao-informacao {
+    height: 50px;
+    align-self: flex-end;
+}
+
+.titulo-instituicao {
+    font-weight: 500;
+}

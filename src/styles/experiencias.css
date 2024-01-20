@@ -1,0 +1,54 @@
+.experiencias {
+    margin-bottom: 8px;
+}
+
+.container-experiencias {
+    margin: 2em;
+}
+
+.titulo.titulo-experiencias {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.nome-empresa {
+    margin-bottom: 4px;
+}
+
+.container-empresa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.container-descricao-cargo {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 4px;
+}
+
+.container-elementos-tempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.circulo {
+    background-color: var(--texto-principal);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.linha-vertical {
+    width: 1px;
+    height: 48px;
+    background-color: var(--texto-principal);
+}
+
+.container-cargo {
+    line-height: 20px;
+}

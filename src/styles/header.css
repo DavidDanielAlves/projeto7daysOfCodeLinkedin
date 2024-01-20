@@ -1,0 +1,77 @@
+.cabecalho {
+    width: 100%;
+    height: auto;
+    background-color: var(--fundo-do-card);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 6px;
+    margin-bottom: 24px;
+}
+
+.container-logo-input {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.container-logo-input img {
+    width: 34px;
+}
+
+.container-logo-input input {
+    background-image: url('../imgs/lupa.png');
+    color: var(--texto-principal);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 14px;
+    background-color: var(--input);
+    width: 230px;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 3em;
+}
+
+.lista-cabecalho {
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+
+.lista-cabecalho img {
+    align-self: flex-start;
+}
+
+.lista-cabecalho {
+    white-space: nowrap;
+}
+
+.menor {
+    width: 21px;
+}
+
+.botao-header {
+    background-color: var(--fundo-do-card);
+    color: var(--texto-principal);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.botao-header:hover {
+    background-color: #444f55;
+}
+
+.botao-header-link {
+    color: var(--texto-principal);
+    text-decoration: none;
+}
+
+.linha-lateral {
+    padding-right: 1em;
+    border-right: 1px solid var(--texto-secundario);
+}
+
+.sem-lupa {
+    background-image: none;
+}

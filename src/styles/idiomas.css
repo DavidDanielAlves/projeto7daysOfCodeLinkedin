@@ -1,0 +1,21 @@
+
+.idiomas {
+    margin-bottom: 5%;
+}
+.container-idiomas {
+    padding: 2em;
+    font-weight: 500;
+}
+
+.titulo-idiomas {
+    font-size: 20px;
+}
+
+.container-lista-idiomas {
+    margin-top: 8px;
+}
+
+.titulo-idioma {
+    margin-bottom: 4px;
+}
+
